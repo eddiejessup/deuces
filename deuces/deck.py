@@ -26,6 +26,13 @@ class Deck:
             cards.append(self.draw())
         return cards
 
+    def draw_specified(self, string):
+        
+        card = Card.new(string)
+        for i, card_num in enumerate(self.cards):
+            if card_num == card.real:
+                return self.cards.pop(i)
+
     def __str__(self):
         return Card.print_pretty_cards(self.cards)
 

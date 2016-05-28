@@ -26,7 +26,7 @@ class Card ():
     """
 
     # the basics
-    STR_RANKS = '23456789TJQKA'
+    STR_RANKS = '23456789tjqka'
     INT_RANKS = range(13)
     PRIMES = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41]
 
