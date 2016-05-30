@@ -1,4 +1,4 @@
-class Card ():
+class Card(object):
 
     """
     Static class that handles cards. We represent cards as 32-bit integers, so

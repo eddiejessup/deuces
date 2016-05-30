@@ -2,7 +2,7 @@ from random import shuffle
 from card import Card
 
 
-class Deck:
+class Deck(object):
 
     """
     Class representing a deck. The first time we create, we seed the static
