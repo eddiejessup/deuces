@@ -1,17 +1,17 @@
 from deuces import Card, Evaluator, Deck
 
 # create a card
-card = Card.new('Qh')
+card = Card.new('qh')
 
 # create a board and hole cards
 board = [
     Card.new('2h'),
     Card.new('2s'),
-    Card.new('Jc')
+    Card.new('jc')
 ]
 hand = [
-    Card.new('Qs'),
-    Card.new('Th')
+    Card.new('qs'),
+    Card.new('th')
 ]
 
 # pretty print cards to console
